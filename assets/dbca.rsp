@@ -1,6 +1,6 @@
 ##############################################################################
 ##                                                                          ##
-##                            DBCA response file                            ##
+##                             DBCA response file                            ##
 ##                            ------------------                            ##
 ## Copyright   1998, 2014, Oracle Corporation. All Rights Reserved.         ##
 ##                                                                          ##
@@ -522,7 +522,7 @@ STORAGETYPE=FS
 # Default value : "US7ASCII"
 # Mandatory     : NO
 #-----------------------------------------------------------------------------
-CHARACTERSET="AL32UTF8"
+CHARACTERSET="WE8ISO8859P9"
 
 #-----------------------------------------------------------------------------
 # Name          : NATIONALCHARACTERSET
@@ -532,7 +532,7 @@ CHARACTERSET="AL32UTF8"
 # Default value : "AL16UTF16"
 # Mandatory     : No
 #-----------------------------------------------------------------------------
-#NATIONALCHARACTERSET= "UTF8"
+NATIONALCHARACTERSET= "AL16UTF16"
 
 #-----------------------------------------------------------------------------
 # Name          : REGISTERWITHDIRSERVICE
